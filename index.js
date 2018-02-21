@@ -33,8 +33,6 @@ function currentLine(array)
       {
         tempArray.push(` ${i}. ${array[i]}`);
       }
-      
-   
     }
     return `The line is currently: ${tempArray}`;
   }
