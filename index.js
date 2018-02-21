@@ -27,14 +27,14 @@ function currentLine(array)
     {
       if(i === 0)
       {
-        var lineQue = `${position}. ${array[i]}`;
+        tempArray.push(`${position}. ${array[i]}`);
       }
       else
       {
          lineQue = ` ${position}. ${array[i]}`;
       }
       position++;
-      tempArray.push(lineQue);
+      (lineQue);
     }
     return `The line is currently: ${tempArray}`;
   }
