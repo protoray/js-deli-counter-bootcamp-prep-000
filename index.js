@@ -23,7 +23,7 @@ function currentLine(array)
   {
     var tempArray = [];
     var position = 1;
-    for(var i = 0; i < array.length; i++)
+    for(var i = 1; i < array.length; i++)
     {
       if(i === 0)
       {
