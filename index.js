@@ -27,7 +27,7 @@ function currentLine(array)
     {
       if(i === 0)
       {
-        tempArray.push(`${i}. ${array[i]}`);
+        tempArray.push(`${i+=1}. ${array[i]}`);
       }
       else
       {
