@@ -22,7 +22,6 @@ function currentLine(array)
   if(array.length > 0)
   {
     var tempArray = [];
-    var position = 1;
     for(var i = 0; i < array.length; i++)
     {
       if(i === 0)
