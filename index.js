@@ -31,10 +31,10 @@ function currentLine(array)
       }
       else
       {
-         lineQue = ` ${position}. ${array[i]}`;
+         tempArray.push(` ${position}. ${array[i]}`);
       }
       position++;
-      (lineQue);
+   
     }
     return `The line is currently: ${tempArray}`;
   }
