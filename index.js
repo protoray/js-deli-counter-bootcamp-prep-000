@@ -31,7 +31,7 @@ function currentLine(array)
       }
       else
       {
-         tempArray.push(` ${position}. ${array[i]}`);
+        tempArray.push(` ${position}. ${array[i]}`);
       }
       position++;
    
